@@ -1,5 +1,8 @@
-<p align="center">
-<img src="/logo.png" alt="logomarca" >
+<p align="center" >
+<img width="250px" src="/family.png" alt="logomarca" >
+</p>
+<p  >
+<h1 align="center" font-size="20px">Barbecuemeter</h1>
 </p>
 
 <div align="center" >
