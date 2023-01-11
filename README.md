@@ -10,12 +10,12 @@
 </div>
 
 # :hammer: Operation of the project
-<p>
-   <img src="" alt="operation" >
+<div>
+  <p> See how it works:<a href="https://lorenagrazy.github.io/Babecuemeter/"></a></p>
+ <div/>  
+  
    
-    <a href="https://lorenagrazy.github.io"></a> 
-   
-
+https://lorenagrazy.github.io/Babecuemeter/
 
 
 ## :clipboard: About the Project
