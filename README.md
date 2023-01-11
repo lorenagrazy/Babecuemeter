@@ -1,28 +1,32 @@
-<p align="center" >
-<img width="250px" src="/family.png" alt="logomarca" >
-</p>
-<p  >
+<div align="center">
+<img  width="150px" src="/family.png" alt="logomarca" >
+</div>
+
 <h1 align="center" font-size="20px">Barbecuemeter</h1>
-</p>
 
 <div align="center" >
    Project developed in the course of the BR Programmer
 </div>
+<br>
 
-# :hammer: Operation of the project
+<h1 align="center" > :hammer: Operation of the project </h1>
+
 <p align="center" >
-<img width="250px" src="/family.png" alt="modelo" >
+<img  width="500px" src="/modelo.png" alt="modelo" >
 </p>
-<div>
-  <p> See how it works:<a href="http://lorenagrazy.com.br/"></a></p>
- <div/>  
+
+
+<div align="center">
+<a href="http://lorenagrazy.com.br/">⚙️See how it works</
+<div/>  
+  
+<br>
+
+
+<h2 align="center"> :clipboard: About the Project </h2>
   
    
-https://lorenagrazy.github.io/Babecuemeter/
-
-
-## :clipboard: About the Project
-
+<div align="center">
 The system was created to calculate the amount of food and drink needed to hold a barbecue.
 </br>
 The calculation basis used was:
@@ -35,10 +39,12 @@ Soda/water - 1000 ml per person + 6 hours 1500ml
 <br>
 Kids are worth 0.5
 <br>
+</div>
 
-## :computer: Technologies used
-
+<h2 align="center"> :computer: Technologies used </h2>
+<div align="center">
 - HTML
 - CSS
 - JavaScript
 
+</div>
