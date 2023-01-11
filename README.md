@@ -10,8 +10,11 @@
 </div>
 
 # :hammer: Operation of the project
+<p align="center" >
+<img width="250px" src="/family.png" alt="modelo" >
+</p>
 <div>
-  <p> See how it works:<a href="https://lorenagrazy.github.io/Babecuemeter/"></a></p>
+  <p> See how it works:<a href="http://lorenagrazy.com.br/"></a></p>
  <div/>  
   
    
