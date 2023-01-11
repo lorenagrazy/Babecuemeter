@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    background-image: url(/churrasco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Righteous', sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 300px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    background-color: bisque;
+    text-align: center;
+}
+
+button {
+    outline: none;
+    border: none;
+    padding: 7px;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+img {
+    width: 80px;
+}
+
+.meet::before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    background-image: url(/bife.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 15px;
+}
+
+.beer::before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    background-image: url(/beer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 15px;
+}
+
+.soda::before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(/soda.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 15px;
+}
