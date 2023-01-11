@@ -1,4 +1,5 @@
-##Barbecuemeter
+<img src="/logo" alt="logomarca">
+<h1 align="center">Barbecuemeter</h1>
 
 <p align="center">
    <img src="" alt="Barbecuemeter"/>
