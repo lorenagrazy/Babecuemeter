@@ -8,17 +8,10 @@
 
 # :hammer: Operation of the project
 <p>
-   <img src="/logo.png" alt="operation" >
+   <img src="" alt="operation" >
    
 
 
-
-
-<p align="center">
-  <a href="#clipboard-sobre-o-projeto">About the Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#computer-tecnologias-utilizadas">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#closed-book-licença">Licença</a>
-</p>
 
 ## :clipboard: About the Project
 
