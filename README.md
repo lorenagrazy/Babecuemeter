@@ -1,19 +1,18 @@
-<img src="/logo" alt="logomarca">
-<h1 align="center">Barbecuemeter</h1>
-
 <p align="center">
-   <img src="" alt="Barbecuemeter"/>
+<img src="/logo.png" alt="logomarca" >
 </p>
 
-
-
-<div align="center">
+<div align="center" >
    Project developed in the course of the BR Programmer
 </div>
 
-<p align="center">
-  <img alt="mockup" src=".github/churrascometro.png" width="100%">
-</p>
+# :hammer: Operation of the project
+<p>
+   <img src="/logo.png" alt="operation" >
+   
+
+
+
 
 <p align="center">
   <a href="#clipboard-sobre-o-projeto">About the Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
