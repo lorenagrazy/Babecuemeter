@@ -17,7 +17,7 @@
 
 
 <div align="center">
-<a href="http://lorenagrazy.com.br/">⚙️See how it works</
+<a href="">⚙️See how it works</
 <div/>  
   
 <br>
