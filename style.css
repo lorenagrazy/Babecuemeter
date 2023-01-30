@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body {
-    background-image: url(./churrasco.jpg);
+    background-image: url(/churrasco.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Righteous', sans-serif;
@@ -51,7 +51,7 @@ img {
     display: inline-block;
     width: 25px;
     height: 20px;
-    background-image: url(./bife.png);
+    background-image: url(/bife.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -63,7 +63,7 @@ img {
     display: inline-block;
     width: 25px;
     height: 20px;
-    background-image: url(./beer.jpg);
+    background-image: url(/beer.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -75,7 +75,7 @@ img {
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image: url(./soda.jpg);
+    background-image: url(/soda.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
