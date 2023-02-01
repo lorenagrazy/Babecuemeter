@@ -17,7 +17,7 @@
 
 
 <div align="center">
-<a href="">⚙️See how it works</
+<a href="https://lorenagrazy.github.io/Babecuemeter/">⚙️See how it works</
 <div/>  
   
 <br>
