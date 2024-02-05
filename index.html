@@ -13,13 +13,14 @@
 <body>
 
     <div class="container">
-        <h1> <img src="./churrasco-com-fumaca.png"> <br> Calculate your barbecue:</h1>
-        <input id="adultos" name="adultos" type="number" placeholder="Adults">
-        <input id="criancas" name="criancas" type="number" placeholder="Children">
-        <input id="duracao" name="duracao" type="number" placeholder="Duration (h)">
-        <button onclick="calcular()">Calculate</button>
+        <h1> <img class="top" src="./churrasco-com-fumaca.png"> <br> Calculate your barbecue:</h1>
+        <input id="adults" name="adults" type="number" placeholder="Adults">
+        <input id="children" name="children" type="number" placeholder="Children">
+        <input id="duration" name="duration" type="number" placeholder="Duration (h)">
+        <button class="calculate" onclick="calculate()">Calculate</button>
+        <button onclick="reset()">Reset</button>
 
-        <div id="resultado">
+        <div id="result">
 
         </div>
     </div>

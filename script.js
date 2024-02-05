@@ -1,53 +1,45 @@
-// Carne - 400 gr por pessoa   + de 6 horas - 650
-// Cerveja - 1200 ml por Pessoa + 6 horas - 2000 ml
-// Refrigerante/agua - 1000 ml por pessoa + 6 horas 1500ml
+let inputAdults = document.getElementById('adults');
+let inputChildren = document.getElementById('children');
+let inputDuration = document.getElementById('duration');
 
-// Crianças valem por 0,5
+let result = document.getElementById('result');
 
-let inputAdultos = document.getElementById("adultos");
-let inputCriancas = document.getElementById("criancas");
-let inputDuracao = document.getElementById("duracao");
+function calculate() {
+  console.log('Calculating...');
 
-let resultado = document.getElementById("resultado");
+  let adults = inputAdults.value;
+  let children = inputChildren.value;
+  let duration = inputDuration.value;
 
-function calcular() {
-    console.log("Calculando...");
+  let totalMeat = meatPerPerson(duration) * adults + (meatPerPerson(duration) / 2) * children;
+  let totalBeer = beerPerPerson(duration) * adults;
+  let totalDrinks = drinksPerPerson(duration) * adults + (drinksPerPerson(duration) / 2) * children;
 
-    let adultos = inputAdultos.value;
-    let criancas = inputCriancas.value;
-    let duracao = inputDuracao.value;
-
-    let qdtTotalCarne = carnePP(duracao) * adultos + (carnePP(duracao) / 2 * criancas);
-    let qdtTotalCerveja = cervejaPP(duracao) * adultos;
-    let qdtTotalBebidas = bebidasPP(duracao) * adultos + (bebidasPP(duracao) / 2 * criancas);
-
-    resultado.innerHTML = `<h2>You will need to:</h2>`
-    resultado.innerHTML += `<p class="meet">${qdtTotalCarne / 1000} Kgs of Meet</p>`
-    resultado.innerHTML += `<p class= "beer">${Math.ceil(qdtTotalCerveja / 355)} Beer Cans</p>`
-    resultado.innerHTML += `<p class="soda">${Math.ceil(qdtTotalBebidas / 2000)} Plastic Bottle 2l Of Drinks </p>`
-
-
+  result.innerHTML = `<h2>You will need to:</h2>`;
+  result.innerHTML += `<p class="meet"><img src="./meat.png " alt="Meat Image"> ${totalMeat / 1000} Kgs of Meat</p>`;
+  result.innerHTML += `<p class="beer"><img src="./beer.png" alt="Beer Image"> ${Math.ceil(
+    totalBeer / 355
+  )} Beer Cans</p>`;
+  result.innerHTML += `<p class="soda"><img src="./soda.png" alt="Soda Image"> ${Math.ceil(
+    totalDrinks / 2000
+  )} Plastic Bottles (2L) Of Drinks </p>`;
 }
 
-function carnePP(duracao) {
-    if (duracao >= 6) {
-        return 650;
-    } else {
-        return 400;
-    }
+function reset() {
+  inputAdults.value = '';
+  inputChildren.value = '';
+  inputDuration.value = '';
+  result.innerHTML = '';
 }
 
-function cervejaPP(duracao) {
-    if (duracao >= 6) {
-        return 2000;
-    } else {
-        return 1200;
-    }
+function meatPerPerson(duration) {
+  return duration >= 6 ? 650 : 400;
 }
-function bebidasPP(duracao) {
-    if (duracao >= 6) {
-        return 1500;
-    } else {
-        return 1000;
-    }
+
+function beerPerPerson(duration) {
+  return duration >= 6 ? 2000 : 1200;
+}
+
+function drinksPerPerson(duration) {
+  return duration >= 6 ? 1500 : 1000;
 }

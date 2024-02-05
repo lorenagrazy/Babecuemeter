@@ -1,83 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body {
-    background-image: url(./churrasco.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Righteous', sans-serif;
-    color: black;
-    text-align: center;
-    padding-top: 50px;
+  background-image: url(./churrasco.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Righteous', sans-serif;
+  color: black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .container {
-    max-width: 300px;
-    margin: auto;
-    background-color: aliceblue;
-    padding: 10px;
-    border-radius: 10px;
+  max-width: 100%;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  box-sizing: border-box;
+  margin: 10px; 
 }
 
 input {
-    width: 100%;
-    display: block;
-    padding: 5px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    outline: none;
-    border-radius: 10px;
-    border: none;
-    background-color: bisque;
-    text-align: center;
+  width: 100%;
+  display: block;
+  padding: 0.7rem;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  background-color: bisque;
+  text-align: center;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+input:hover {
+  background-color: lightgoldenrodyellow; 
 }
 
 button {
-    outline: none;
-    border: none;
-    padding: 7px;
-    background-color: black;
-    border-radius: 10px;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 0.7rem;
+  background-color: black;
+  border-radius: 10px;
+  font-weight: normal;
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.calculate {
+  margin-right: 2rem;
 }
 
 img {
-    width: 80px;
+  width: 2rem;
+  margin-right: 1rem;
 }
 
-.meet::before {
-    content: '';
-    display: inline-block;
-    width: 25px;
-    height: 20px;
-    background-image: url(./bife.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-right: 15px;
+.meet,
+.beer,
+.soda {
+  text-align: center;
 }
 
-.beer::before {
-    content: '';
-    display: inline-block;
-    width: 25px;
-    height: 20px;
-    background-image: url(./beer.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-right: 15px;
+.meet img,
+.beer img,
+.soda img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 5px;
 }
 
-.soda::before {
-    content: '';
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    background-image: url(./soda.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-right: 15px;
+.top {
+  width: 5rem;
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    padding: 20px; 
+  }
+
+  .container {
+    max-width: 100%; 
+  }
+
+  input,
+  button {
+    width: 100%; 
+  }
 }
